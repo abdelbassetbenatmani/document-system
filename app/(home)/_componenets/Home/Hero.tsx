@@ -18,8 +18,8 @@ const Hero = () => {
               Manage your email marketing using AI
             </h1>
             <p className="max-w-xl mx-auto text-gray-500 dark:text-gray-300">
-              Gain control of your business's growth with Mailgo's comprehensive
-              marketing, automation, and email marketing platform.
+              Gain control of your business&apos;s growth with Mailgo&apos;s comprehensive
+              marketing automation and email marketing platform.
             </p>
             <div className="flex justify-center font-medium text-sm">
               <Link
