@@ -18,7 +18,7 @@ const Hero = () => {
               Manage your email marketing using AI
             </h1>
             <p className="max-w-xl mx-auto text-gray-500 dark:text-gray-300">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat molestiae modi aspernatur? Expedita aliquid quas accusamus harum facere maiores sunt dolor
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestiae modi aspernatur? Expedita aliquid quas accusamus harum facere maiores sunt dolor
             </p>
             <div className="flex justify-center font-medium text-sm">
               <Link
