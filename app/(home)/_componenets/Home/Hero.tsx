@@ -1,29 +1,41 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import HeroImg from "@/public/images/hero.svg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 const Hero = () => {
-
   return (
     <section className="relative">
       <div className="custom-screen py-28">
         <div>
           <div className="space-y-5 max-w-3xl mx-auto text-center">
             <h1
-              className="text-4xl   font-extrabold mx-auto sm:text-6xl text-gray-800 dark:text-white"
+              className="text-4xl   font-extrabold mx-auto sm:text-6xl  text-gray-900 dark:text-gray-100"
+
               >
               Manage your email marketing using AI
             </h1>
+            {/* <h1
+              className="text-4xl bg-clip-text text-transparent bg-gradient-to-r font-extrabold mx-auto sm:text-6xl  "
+              style={{
+                backgroundImage:
+                  theme === "dark"
+                    ? "linear-gradient(179.1deg, #FFFFFF 0.77%, rgba(255, 255, 255, 0) 182.09%)"
+                    : "linear-gradient(179.1deg, #000000 0.77%, rgba(0, 0, 0, 0) 182.09%)",
+              }}
+              >
+              Manage your email marketing using AI
+            </h1> */}
             <p className="max-w-xl mx-auto text-gray-500 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestiae modi aspernatur? Expedita aliquid quas accusamus harum facere maiores sunt dolor
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              molestiae modi aspernatur? Expedita aliquid quas accusamus harum
+              facere maiores sunt dolor
             </p>
             <div className="flex justify-center font-medium text-sm">
-              <Link
-                href="/sign-up"
-              >
+              <Link href="/sign-up">
                 <Button className="flex items-center text-white bg-purple-600 hover:bg-purple-500 active:bg-purple-700 rounded-full">
                   Get started
                   <svg

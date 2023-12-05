@@ -12,7 +12,7 @@ interface Props {
 const NavHeader = ({ onClick, state, menuBtnEl }:Props) => (
     <div className="flex items-center justify-between py-5 md:block">
         <Link href="/">
-            <Brand />
+            <Brand className="toggleColor"/>
         </Link>
         <ModeToggle className="md:hidden text-white"/>
         <div className="md:hidden">

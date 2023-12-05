@@ -18,6 +18,7 @@ export function ModeToggle({className}:Props) {
 
   localStorage.setItem("theme", theme as string);
   
+  
   return (
     <div className={className}>
       <div className="flex justify-center items-center">
